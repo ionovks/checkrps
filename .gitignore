@@ -1,0 +1,48 @@
+# Maven или Gradle каталоги сборки
+/target/
+!/target/classes
+!/target/generated-sources
+!/target/maven-status
+!/target/maven-archiver
+
+/build/
+!/build/classes
+!/build/resources
+!/build/tmp
+
+# IntelliJ IDEA / Eclipse / VSCode конфигурации
+.idea/
+*.iml
+*.iws
+*.class
+*.classpath
+*.project
+.settings/
+.vscode/
+
+# Mac OS / Windows системные файлы
+.DS_Store
+Thumbs.db
+
+# Логи, отладочные файлы
+*.log
+*.log.*
+/logs
+/*.log
+
+# Секретные / приватные файлы (напр. ключи)
+*.keystore
+*.jks
+application-local.properties
+.env
+
+# Кэшируемые файлы
+*.war
+*.ear
+*.jar
+
+# Lombok config (если не требуется)
+lombok.config
+
+# Папка Docker
+/compose
